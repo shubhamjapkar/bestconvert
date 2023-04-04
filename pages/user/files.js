@@ -5,7 +5,7 @@ import Image from 'next/image';
 import ReactLoading from "react-loading";
 import { FcPicture } from "react-icons/fc";
 
-const files = () => {
+const Files = () => {
     const [isUserLogin, setIsUserLogin] = useState(null);
     const [loader, setLoader] = useState(isUserLogin);
     useEffect(() => {
@@ -61,4 +61,4 @@ const files = () => {
     );
 }
 
-export default files;
+export default Files;
