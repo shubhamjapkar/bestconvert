@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaTwitter, FaFacebook } from "react-icons/fa";
 import logo1 from "./logo.png";
 import Link from "next/link";
 
-const footer = () => {
+const Footer = () => {
   const date = new Date();
 
   return (
@@ -17,11 +17,13 @@ const footer = () => {
         <FaLinkedinIn />
       </div>
       <div className="footermiddle">
-        <Link href="/" passHref>
-          <div className="logofooter">
-            <Image src={logo1} alt="logo" className="log2" />
-          </div>
-        </Link>
+        <div className="logofooter">
+          <Link href="/" passHref>
+            <div>
+              <Image src={logo1} alt="logo" className="log2" />
+            </div>
+          </Link>
+        </div>
         <div className="allsitesfooter">
           <label>Sites</label>
           <label>Jpg To Png</label>
@@ -54,4 +56,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

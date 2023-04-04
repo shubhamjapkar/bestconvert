@@ -5,7 +5,7 @@ import logo from "./logo.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaTwitter, FaFacebook } from "react-icons/fa";
 
-const header = () => {
+const Header = () => {
   const [habuse, habset] = useState(false); //eslint-disable-line
 
   return (
@@ -26,6 +26,7 @@ const header = () => {
         <Link href='/PrivacyPolicy'><label>Privacy Policy</label></Link>
         <Link href='/user/files'><label id="Sign_up">All Files</label></Link>
       </div>
+
       <div className="social">
         <FaFacebook />
         <FaTwitter />
@@ -41,4 +42,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
