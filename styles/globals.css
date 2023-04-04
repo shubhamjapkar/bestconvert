@@ -39,11 +39,7 @@ body {
 
 a{text-decoration: none;}
 
-.menu_bar .log {
-  grid-column: 2/3;
-
-  width: 60px;
-}
+.menu_bar a:first-child{grid-column: 2/3;}
 
 .hamberger,
 #buttonlog,
@@ -375,8 +371,8 @@ a{text-decoration: none;}
 
   .manulist {position: fixed; z-index: 100;
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 80px 50px 50px 50px 50px;
 
     background: #000000cc;
 
@@ -387,6 +383,7 @@ a{text-decoration: none;}
 
     transition: all 1s ease-out;
   }
+  .manulist #Sign_up {width: 100px; background-color: red; border-radius: 10px;}
 
   /* body main */
 
@@ -397,27 +394,11 @@ a{text-decoration: none;}
     }
   }
 
-  .manulist label {
-    margin: 1.5vh auto;
+  .manulist label {margin: 1.5vh auto;font-size: 16px;border-bottom: 2px solid red;}
 
-    font-size: clamp(15px, 4.5vw, 18px);
+  .manulist .cross {width: auto;font-size: 20px;width: 100%;text-align: right;transform: translateX(-30px)}
 
-    border-bottom: 2px solid red;
-  }
-
-  .manulist label:first-child {
-    width: auto;
-
-    margin-left: 70%;
-
-    font-size: clamp(27px, 10.5vw, 35px);
-  }
-
-  .manulist.active {
-    transform: translateX(100vw);
-
-    transition-duration: 1s;
-  }
+  .manulist.active {transform: translateX(100vw);transition-duration: 1s;}
 
   /* footer */
 
