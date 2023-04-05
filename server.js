@@ -25,6 +25,10 @@ const fileStorageEngine = multer.diskStorage({
 
 const upload = multer({ storage: fileStorageEngine });
 
+app.post("/test", upload.array("images", 20), async (req, res) => {
+  res.send([["","-","-",""]])
+})
+
 app.post("/multiple", upload.array("images", 20), async (req, res) => {
   
   let filesUrl = [];
@@ -68,7 +72,6 @@ app.post("/multiple", upload.array("images", 20), async (req, res) => {
 });
 
 app.get("/getImage/:file(*)", async (req, res) => {
-  console.log('----');
   const imageURL = req.params.file;
   res.sendFile(__dirname+`/images/${imageURL}`);
 });
