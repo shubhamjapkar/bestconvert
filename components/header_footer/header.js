@@ -24,7 +24,7 @@ const Header = () => {
         <Link href='/AboutUs'><label>About Us</label></Link>
         <Link href='/ContactUs'><label>Contact Us</label></Link>
         <Link href='/PrivacyPolicy'><label>Privacy Policy</label></Link>
-        <Link href='/user/files'><label id="Sign_up">All Files</label></Link>
+        <Link href='/user/AllFiles'><label id="Sign_up">All Files</label></Link>
       </div>
 
       <div className="social">
@@ -33,7 +33,7 @@ const Header = () => {
         <FaLinkedinIn />
       </div>
       <div className="join">
-        <Link href="/user/files"><label id="Sign_up">All Files</label></Link>
+        <Link href="/user/AllFiles"><label id="Sign_up">All Files</label></Link>
       </div>
       <div className="hamberger">
         <AiOutlineMenu onClick={() => habset(true)} />

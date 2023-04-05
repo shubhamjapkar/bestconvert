@@ -6,7 +6,7 @@ import { FcPicture } from "react-icons/fc";
 import ReactLoading from "react-loading";
 import Link from "next/link";
 import { useRouter } from 'next/router'
-import { setCookie, getCookie } from './Cookie'
+import { setCookie, getCookie } from '../lib/Cookie'
 
 function Page({ query, notFound }) {
   const router = useRouter();

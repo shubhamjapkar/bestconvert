@@ -1,4 +1,4 @@
-import { getCookie } from './Cookie'
+import { getCookie } from '../../lib/Cookie'
 import { useState, useEffect } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
