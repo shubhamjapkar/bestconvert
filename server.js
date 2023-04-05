@@ -8,13 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uploadFile = multer({ dest: './datafiles' })
-app.post('/profile', uploadFile.array('photos', 12), function (req, res, next) {
-  // req.file is the `avatar` file
-  // req.body will hold the text fields, if there were any
-  res.send("success")
-})
-
 app.get("/", (req, res) => {
   res.send("hello shuboy");
 });
