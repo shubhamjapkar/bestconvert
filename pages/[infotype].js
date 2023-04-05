@@ -11,6 +11,7 @@ import { setCookie, getCookie } from '../lib/Cookie'
 function Page({ query, notFound }) {
   const router = useRouter();
 
+  const backendUrl = process.env.BACKEND_API;
   if (notFound) {
     router.push('/');
   }
@@ -65,7 +66,7 @@ function Page({ query, notFound }) {
       );
 
       await axios
-        .post(`http://localhost:5000/multiple`, data)
+        .post(`${backendUrl}/multiple`, data)
         .then(function (res) {
           setpopdown(res.data);
           const obj = isUserLogin || {};
@@ -219,7 +220,7 @@ function Page({ query, notFound }) {
               <label id="fontpop">TO</label>
               <label id="fontpop">{popdown[0][2]?.toUpperCase()}</label>
               {popdown[0][0] != "-" ? (
-                <a target="_blank" rel="noreferrer noopener" href={`http://localhost:5000/download/${e[0]}/${e[3]}`}>
+                <a target="_blank" rel="noreferrer noopener" href={`${backendUrl}/download/${e[0]}/${e[3]}`}>
                   <label className="download">Download</label>
                 </a>
               ) : (
