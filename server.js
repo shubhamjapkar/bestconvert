@@ -12,13 +12,6 @@ app.get("/", (req, res) => {
   res.send("hello shuboy");
 });
 
-const uploadAll = multer({ dest: 'images/' });
-app.post('/photos/upload', uploadAll.array('photos', 12), function (req, res, next) {
-  // req.files is array of `photos` files
-  // req.body will contain the text fields, if there were any
-  res.send("yeh sir")
-})
-
 const fileStorageEngine = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "./images");
@@ -31,8 +24,6 @@ const fileStorageEngine = multer.diskStorage({
 });
 
 const upload = multer({ storage: fileStorageEngine });
-
-
 app.post("/multiple", upload.array("images", 20), async (req, res) => {
   
   let filesUrl = [];
@@ -47,7 +38,7 @@ app.post("/multiple", upload.array("images", 20), async (req, res) => {
 
     const originalname = files.originalname.split('.');
     originalname.pop();
-    originalname.push(extention);
+    originalname.push(req.body.filename);
 
     filesUrl.push([finalUrl, extention, req.body.filename, originalname.join('.')])
     cammand += ` -i images/${files.filename} images/${finalUrl}`;
