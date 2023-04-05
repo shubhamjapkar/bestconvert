@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footerlast">
-        <label>Bestconver.org build by <span className="author">Shubham Japkar</span></label>
+        <label>Bestconver.in build by <span className="author">Shubham Japkar</span></label>
         <label>Copyright &#169; {date.getFullYear()}. All rights reserved.</label>
       </div>
     </div>

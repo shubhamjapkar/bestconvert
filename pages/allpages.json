@@ -6,7 +6,7 @@
         "title": "JPG To PNG",
         "description": "sdsd sd asd asd asd asd ",
         "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convertto": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"],
         "keywords": "Jpg to Png, Png to Webp"
       },
       {
@@ -15,7 +15,7 @@
         "title": "JPG To GIF",
         "description": "sdsd sd asd asd asd asd ",
         "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convertto": ["GIF", "WEBP", "PNG", "JPG", "TIFF","BMP","TGA"],
         "keywords": "Jpg to Png, Png to Webp"
       },
       {
@@ -23,7 +23,7 @@
         "url": "/png-to-jpg",
         "title": "PNG To JPG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convert": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"],
         "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
       },
       {
@@ -31,15 +31,15 @@
         "url": "/png-to-tga",
         "title": "PNG To TGA",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"],
+        "convertto": ["TGA", "WEBP", "PNG", "GIF", "TIFF","BMP","JPG"]
       },
       {
         "id": 5,
         "url": "/tga-to-jpg",
         "title": "TGA To JPG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convert": ["TGA", "WEBP", "PNG", "GIF", "TIFF","BMP","JPG"],
         "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
       },
       {
@@ -47,39 +47,39 @@
         "url": "/tga-to-gif",
         "title": "TGA To GIF",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["TGA", "WEBP", "PNG", "GIF", "TIFF","BMP","JPG"],
+        "convertto": ["GIF", "WEBP", "PNG", "JPG", "TIFF","BMP","TGA"]
       },
       {
         "id": 7,
         "url": "/gif-To-bmp",
         "title": "GIF To BMP",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["GIF", "WEBP", "PNG", "JPG", "TIFF","BMP","TGA"],
+        "convertto": ["BMP", "WEBP", "PNG", "GIF", "TIFF","JPG","TGA"]
       },
       {
         "id": 8,
         "url": "/gif-To-png",
         "title": "GIF To PNG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["GIF", "WEBP", "PNG", "JPG", "TIFF","BMP","TGA"],
+        "convertto": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"]
       },
       {
         "id": 9,
         "url": "/tiff-To-png",
         "title": "TIFF To PNG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["TIFF", "WEBP", "PNG", "GIF", "JPG","BMP","TGA"],
+        "convertto": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"]
       },
       {
         "id": 10,
         "url": "/tiff-To-jpg",
         "title": "TIFF To JPG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convert": ["TIFF", "WEBP", "PNG", "GIF", "JPG","BMP","TGA"],
         "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
       },
       {
@@ -87,15 +87,15 @@
         "url": "/bmp-to-tga",
         "title": "BMP To TGA",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["BMP", "WEBP", "PNG", "GIF", "TIFF","JPG","TGA"],
+        "convertto": ["TGA", "WEBP", "PNG", "GIF", "TIFF","BMP","JPG"]
       },
       {
         "id": 11,
         "url": "/bmp-to-jpg",
         "title": "BMP To JPG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convert": ["BMP", "WEBP", "PNG", "GIF", "TIFF","JPG","TGA"],
         "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
       },
       {
@@ -103,8 +103,8 @@
         "url": "/png-to-tiff",
         "title": "PNG To TIFF",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"],
+        "convertto": ["TIFF", "WEBP", "PNG", "GIF", "JPG","BMP","TGA"]
       },
       {
         "id": 13,
@@ -112,7 +112,7 @@
         "title": "JPG To PNG",
         "description": "sdsd sd asd asd asd asd ",
         "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convertto": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"],
         "keywords": "Jpg to Png, Png to Webp"
       },
       {
@@ -121,7 +121,7 @@
         "title": "JPG To GIF",
         "description": "sdsd sd asd asd asd asd ",
         "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convertto": ["GIF", "WEBP", "PNG", "JPG", "TIFF","BMP","TGA"],
         "keywords": "Jpg to Png, Png to Webp"
       },
       {
@@ -129,7 +129,7 @@
         "url": "/png-to-jpg",
         "title": "PNG To JPG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convert": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"],
         "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
       },
       {
@@ -137,15 +137,15 @@
         "url": "/png-to-tga",
         "title": "PNG To TGA",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"],
+        "convertto": ["TGA", "WEBP", "PNG", "GIF", "TIFF","BMP","JPG"]
       },
       {
         "id": 17,
         "url": "/tga-to-jpg",
         "title": "TGA To JPG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convert": ["TGA", "WEBP", "PNG", "GIF", "TIFF","BMP","JPG"],
         "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
       },
       {
@@ -153,39 +153,39 @@
         "url": "/tga-to-gif",
         "title": "TGA To GIF",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["TGA", "WEBP", "PNG", "GIF", "TIFF","BMP","JPG"],
+        "convertto": ["GIF", "WEBP", "PNG", "JPG", "TIFF","BMP","TGA"]
       },
       {
         "id": 19,
         "url": "/gif-To-bmp",
         "title": "GIF To BMP",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["GIF", "WEBP", "PNG", "JPG", "TIFF","BMP","TGA"],
+        "convertto": ["BMP", "WEBP", "PNG", "GIF", "TIFF","JPG","TGA"]
       },
       {
         "id": 20,
         "url": "/gif-To-png",
         "title": "GIF To PNG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["GIF", "WEBP", "PNG", "JPG", "TIFF","BMP","TGA"],
+        "convertto": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"]
       },
       {
         "id": 21,
         "url": "/tiff-To-png",
         "title": "TIFF To PNG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["TIFF", "WEBP", "PNG", "GIF", "JPG","BMP","TGA"],
+        "convertto": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"]
       },
       {
         "id": 22,
         "url": "/tiff-To-jpg",
         "title": "TIFF To JPG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convert": ["TIFF", "WEBP", "PNG", "GIF", "JPG","BMP","TGA"],
         "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
       },
       {
@@ -193,15 +193,15 @@
         "url": "/bmp-to-tga",
         "title": "BMP To TGA",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["BMP", "WEBP", "PNG", "GIF", "TIFF","JPG","TGA"],
+        "convertto": ["TGA", "WEBP", "PNG", "GIF", "TIFF","BMP","JPG"]
       },
       {
         "id": 24,
         "url": "/bmp-to-jpg",
         "title": "BMP To JPG",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
+        "convert": ["BMP", "WEBP", "PNG", "GIF", "TIFF","JPG","TGA"],
         "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
       },
       {
@@ -209,8 +209,8 @@
         "url": "/png-to-tiff",
         "title": "PNG To TIFF",
         "description": "sdsd sd asd asd asd asd ",
-        "convert": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"],
-        "convertto": ["JPG", "WEBP", "PNG", "GIF", "TIFF","BMP","TGA"]
+        "convert": ["PNG", "WEBP", "JPG", "GIF", "TIFF","BMP","TGA"],
+        "convertto": ["TIFF", "WEBP", "PNG", "GIF", "JPG","BMP","TGA"]
       }
     ]
   }

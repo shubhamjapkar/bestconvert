@@ -3,7 +3,7 @@ const ContactUs = () => {
         <div className="siteDenotePages">
 
             <h1>Contact Us !</h1>
-            <h2>Welcome to <span id="W_Name"> site123</span>!</h2>
+            <h2>Welcome to <span id="W_Name"> bestconvert.in</span>!</h2>
 
             <p>Please email us if you have any queries about the site, advertising, or anything else.</p>
 
