@@ -245,7 +245,7 @@ function Page({ query }) {
           <label className="security_box">
             <h2>SECURITY</h2>
             <p>
-              site* has been trusted by our users and customers since its founding in 2023. No one except you will ever have access to your files. We earn money by organic traffic, not by selling your data.
+              bestconvert has been trusted by our users and customers since its founding in 2023. No one except you will ever have access to your files. We earn money by organic traffic, not by selling your data.
             </p>
           </label>
         </div>
