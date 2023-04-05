@@ -12,6 +12,13 @@ app.get("/", (req, res) => {
   res.send("hello shuboy");
 });
 
+const uploadAll = multer({ dest: 'images/' });
+app.post('/photos/upload', uploadAll.array('photos', 12), function (req, res, next) {
+  // req.files is array of `photos` files
+  // req.body will contain the text fields, if there were any
+  res.send("yeh sir")
+})
+
 const fileStorageEngine = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "./images");
