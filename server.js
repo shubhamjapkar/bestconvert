@@ -8,6 +8,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const uploadFile = multer({ dest: './datafiles' })
+app.post('/profile', uploadFile.array('photos', 12), function (req, res, next) {
+  // req.file is the `avatar` file
+  // req.body will hold the text fields, if there were any
+  res.send("success")
+})
+
 app.get("/", (req, res) => {
   res.send("hello shuboy");
 });
@@ -25,9 +32,6 @@ const fileStorageEngine = multer.diskStorage({
 
 const upload = multer({ storage: fileStorageEngine });
 
-app.post("/test", upload.array("images", 20), async (req, res) => {
-  res.send([["","-","-",""]])
-})
 
 app.post("/multiple", upload.array("images", 20), async (req, res) => {
   
