@@ -52,8 +52,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="footerlast">
-        
-        <label className="authorName">Bestconver.in build by <span className="author">Shubham Japkar</span>.</label>
+
+        <label className="authorName">build by <span className="author">Shubham Japkar</span>.</label>
         <label className="copyRT">Copyright &#169; {date.getFullYear()}. All rights reserved.</label>
       </div>
     </div>
