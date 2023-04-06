@@ -26,21 +26,24 @@ const Footer = () => {
         </div>
         <div className="allsitesfooter">
           <label>Sites</label>
+          <label>Convert Tools</label>
+          <label>Jpg To Png</label>
+          <label>Image Migration</label>
+
           <label>Jpg To Png</label>
           <label>Convert Tools</label>
+          <label>Sites</label>
           <label>Image Migration</label>
+
+          <label>Convert Tools</label>
           <label>Sites</label>
           <label>Jpg To Png</label>
-          <label>Convert Tools</label>
           <label>Image Migration</label>
-          <label>Sites</label>
+
+          <label>Image Migration</label>
           <label>Jpg To Png</label>
           <label>Convert Tools</label>
-          <label>Image Migration</label>
           <label>Sites</label>
-          <label>Jpg To Png</label>
-          <label>Convert Tools</label>
-          <label>Image Migration</label>
         </div>
         <div className="menufooter">
           <Link href='/AboutUs'><label>About Us</label></Link>
