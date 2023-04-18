@@ -39,7 +39,7 @@ body {
 
 a{text-decoration: none;}
 
-.menu_bar a:first-child{grid-column: 2/3;}
+.menu_bar div:first-child{grid-column: 2/3;}
 
 .hamberger,
 #buttonlog,
@@ -359,7 +359,7 @@ a{text-decoration: none;}
   .footerlast label{display: flex; justify-content: center; flex-direction: column; font-size: 10px;}
 
   .menu_bar {
-    grid-template-columns: 0.02fr 0.1fr 0.5fr 1fr 0.3fr 0.1fr;
+    grid-template-columns: 0.02fr 1fr 0.5fr 1fr 0.3fr 0.1fr;
   }
 
   .social {
