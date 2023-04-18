@@ -4,11 +4,16 @@ import Link from "next/link";
 import logo from "./logo.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaTwitter, FaFacebook } from "react-icons/fa";
+import Head from "next/head";
 
 const Header = () => {
   const [habuse, habset] = useState(false); //eslint-disable-line
 
   return (
+  <>
+    <Head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5599253981586920" crossorigin="anonymous"></script>
+    </Head>
     <div className="menu_bar">
       <Link href="/" passHref>
         <div className="log">
@@ -39,6 +44,7 @@ const Header = () => {
         <AiOutlineMenu onClick={() => habset(true)} />
       </div>
     </div>
+  </>
   );
 };
 
